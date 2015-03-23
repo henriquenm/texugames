@@ -1,0 +1,37 @@
+#content {
+  border: 1px solid;
+  padding: 0px 100px 0px 100px;
+}
+#header {
+  text-align:center;
+}
+#nav {
+  line-height:30px;
+  background-color:#eeeeee;
+  height:300px;
+  width:100px;
+  float:left;
+  padding:5px; 
+}
+#section {
+  width:100px;
+  padding:10px;
+  text-align: center; 
+}
+#footer {
+  background-color: black;
+  color:white;
+  clear:both;
+  text-align:center;
+  padding:5px; 
+  border: 1px solid;
+}
+.game_section {
+  border: 1px solid;
+  width: 200px;
+  height: 250px;
+}
+#footer #private-policy {
+  text-align: left !important;
+  float: left;
+}
