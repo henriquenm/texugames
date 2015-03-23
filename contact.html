@@ -30,22 +30,39 @@
          <li class='has-sub'><a href='#'><span>Xbox</span></a>
             <ul>
                <li><a href='xbox360.html'><span>Xbox360</span></a></li>
-               <li class='last active'><a href='xboxone.html'><span>XboxOne</span></a></li>
+               <li class='last'><a href='xboxone.html'><span>XboxOne</span></a></li>
             </ul>
          </li>
          <li class='last'><a href='registration.html'><span>Cadastre-se</span></a></li>
-         <li class='last'><a href='contact.html'><span>Fale conosco</span></a></li>
+         <li class='last active'><a href='contact.html'><span>Fale conosco</span></a></li>
          <li class='last'><a href='aboutus.html'><span>Quem somos</span></a></li>
       </ul>
     </div>
 
     <div id="content">
-      <div id="section">
-        <div class="game_section">
-          Image
+      <form id="form">
+        <h2>Fale conosco</h2>
+        <div>
+          <label for="name">Nome</label><br>
+          <input type="text" name="name"/><br>
         </div>
-        <strong>Game 1</strong> - R$ 199,00
-      </div>
+        <br/ >
+        <div>
+          <label for="email">Email</label><br>
+          <input type="email" name="email"/><br>
+        </div>
+        <br/ >
+        <div>
+          <label for="phone">Telefone</label><br>
+          <input type="phone" name="phone"/><br>
+        </div>
+        <br/ >
+        <div>
+          <label for="message">Mensagem</label><br>
+          <textarea rows="4" cols="50"></textarea>
+        </div>
+        <input type="submit" name="submit" />
+      </form>
     </div>
 
     <div id="footer">
