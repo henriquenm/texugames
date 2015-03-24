@@ -1,5 +1,5 @@
 body {
-  padding: 0px 70px 0px 70px;
+  padding: 0px 80px 0px 80px;
   background-image: url(../images/background_wall.jpg);
 }
 #content {
@@ -21,19 +21,9 @@ body {
   float:left;
   padding:5px; 
 }
-#section {
-  width:100px;
-  padding:10px;
-  text-align: center; 
-}
 #footer {
   color:white;
   background: url(../images/menu-bg.png) repeat;
-}
-.game_section {
-  border: 1px solid;
-  width: 200px;
-  height: 250px;
 }
 #copyright {
   text-align: center;
@@ -54,4 +44,16 @@ body {
 }
 #form textarea {
   border-radius: 1px;
+}
+#texugo_img {
+  float: right;
+  margin-right: 100px;
+}
+#image_honey_badger {
+  float: right;
+  margin-right: 100px;
+}
+
+#youtube_video {
+  text-align: center;
 }
